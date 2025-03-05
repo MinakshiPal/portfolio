@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <!-- Login Form -->
+            <div class="form" id="login-form">
+                <h2>Login</h2>
+                <form action="login_backend.php" method="POST">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+
+                    <button type="submit">Login</button>
+                </form>
+                <p>Don't have an account? <a href="#" id="show-register">Register</a></p>
+            </div>
+
+            <!-- Register Form -->
+            <div class="form" id="register-form">
+                <h2>Register</h2>
+                <form action="register_backend.php" method="POST">
+                    <label for="new-username">Username</label>
+                    <input type="text" id="new-username" name="username" required>
+
+                    <label for="new-email">Email</label>
+                    <input type="email" id="new-email" name="email" required>
+
+                    <label for="new-password">Password</label>
+                    <input type="password" id="new-password" name="password" required>
+
+                    <button type="submit">Register</button>
+                </form>
+                <p>Already have an account? <a href="#" id="show-login">Login</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript to switch between login and register forms
+        document.getElementById("show-register").onclick = function() {
+            document.getElementById("login-form").style.display = "none";
+            document.getElementById("register-form").style.display = "block";
+        };
+        
+        document.getElementById("show-login").onclick = function() {
+            document.getElementById("register-form").style.display = "none";
+            document.getElementById("login-form").style.display = "block";
+        };
+    </script>
+</body>
+</html>
