@@ -1,3 +1,4 @@
+![GitHub Banner](https://github.com/user-attachments/assets/b1a159bb-609d-4157-814f-7dc04ad9b663)
 
 <h1 align="center">Hi 👋, I'm Minakshi pal</h1>
 <h3 align="center">i am pursuing a Diploma in Information Technology and Data Science</h3>
