@@ -2,7 +2,6 @@
 
 <h1 align="center">Hi 👋, I'm Minakshi pal</h1>
 <h3 align="center">i am pursuing a Diploma in Information Technology and Data Science</h3>
-<img align="right" alt="coding" width="400" src="https://images.lemonly.com/wp-content/uploads/2018/08/07150313/Homebase_Thumb_v01.gif">
 
 - 👨‍💻 All of my projects are available at [https://github.com/MinakshiPal](https://github.com/MinakshiPal)
 
